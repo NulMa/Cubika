@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a590395d5486f5d4893c58175dfef607
+guid: ff3167f9c08d43b4588dc0e4dfdffb79
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638476719584539482
+  platformSettingsDirtyTick: 638476666640501992
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: cube01_Frame_0
+  - name: cube_dropper_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 10
-      height: 10
-    spriteID: 67d50cb1f431a244e98127582dd5433f
+      width: 18
+      height: 24
+    spriteID: e18661c5f1181d54089e0f82114e8dd4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: cube01_Frame_1
+  - name: cube_dropper_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -149,10 +149,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 22
-      width: 10
-      height: 10
-    spriteID: 43977954ec8702344b2c79d46d5d9591
+      y: 36
+      width: 18
+      height: 24
+    spriteID: 6faa2cb6a55a738478c8750e64ab9885
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,8 +160,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 22}
-  - name: cube01_Frame_2
+    uvTransform: {x: 4, y: 36}
+  - name: cube_dropper_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -169,10 +169,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 40
-      width: 10
-      height: 10
-    spriteID: 453afac330ab45d4d8ffef22bfdb3be5
+      y: 68
+      width: 18
+      height: 24
+    spriteID: 06c5eaa979bd3b7489abb313b303eeb6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,8 +180,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 40}
-  - name: cube01_Frame_3
+    uvTransform: {x: 4, y: 68}
+  - name: cube_dropper_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -189,10 +189,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 58
-      width: 10
-      height: 10
-    spriteID: e5479a7dc4a0f224ea8ac6d92c774acc
+      y: 100
+      width: 18
+      height: 24
+    spriteID: 4d87d90e7e4010f4a8ca19bd67ee9499
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,79 +200,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 58}
-  - name: cube01_Frame_4
+    uvTransform: {x: 4, y: 100}
+  - name: cube_dropper_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 76
-      width: 10
-      height: 10
-    spriteID: 768b22a1a0105024daf0a9551a954f9c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
-  - name: cube01_Frame_5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 94
-      width: 10
-      height: 10
-    spriteID: 9c706539c19b029449c07677ab8688dd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 94}
-  - name: cube01_Frame_6
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 112
-      width: 10
-      height: 10
-    spriteID: ab3b163730a5f1b438f78759eb7ef48e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 112}
-  - name: cube01_Frame_7
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 22
+      x: 30
       y: 4
-      width: 10
-      height: 10
-    spriteID: f2e5bf0983e259540b4b1d1eec78abe1
+      width: 18
+      height: 24
+    spriteID: a8b5e5fa990830a4b8b401c3b7082ba3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +220,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 22, y: 4}
-  - name: cube01_Frame_8
+    uvTransform: {x: 30, y: 4}
+  - name: cube_dropper_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
-      y: 22
-      width: 10
-      height: 10
-    spriteID: 1cbc95f96b33a9f4689944c313d5d291
+      x: 30
+      y: 36
+      width: 18
+      height: 24
+    spriteID: ecbbbdc78d06c794fa6671c6ced1b766
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,19 +240,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 22, y: 22}
-  - name: cube01_Frame_9
+    uvTransform: {x: 30, y: 36}
+  - name: cube_dropper_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
-      y: 40
-      width: 10
-      height: 10
-    spriteID: c0952880effb08b42b0752cd5c5b959b
+      x: 30
+      y: 68
+      width: 18
+      height: 24
+    spriteID: 819d90fbd83dbee4d808ab92081ed4b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -320,19 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 22, y: 40}
-  - name: cube01_Frame_10
+    uvTransform: {x: 30, y: 68}
+  - name: cube_dropper_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
-      y: 58
-      width: 10
-      height: 10
-    spriteID: 71482d6f0cb6b614886f6b23071a6e7c
+      x: 30
+      y: 100
+      width: 18
+      height: 24
+    spriteID: ddee1fcfc8889ef4889c737e30a4c2ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -340,79 +280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 22, y: 58}
-  - name: cube01_Frame_11
+    uvTransform: {x: 30, y: 100}
+  - name: cube_dropper_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
-      y: 76
-      width: 10
-      height: 10
-    spriteID: cf5753517e1b5334eb19dc3524d68605
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 22, y: 76}
-  - name: cube01_Frame_12
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 22
-      y: 94
-      width: 10
-      height: 10
-    spriteID: 1486eeef64a853f44b33af7c1b780e88
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 22, y: 94}
-  - name: cube01_Frame_13
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 22
-      y: 112
-      width: 10
-      height: 10
-    spriteID: fff8998a6d7daa9408998e0ac43dc038
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 22, y: 112}
-  - name: cube01_Frame_14
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 40
+      x: 56
       y: 4
-      width: 10
-      height: 10
-    spriteID: 0c931ba335d26684aac4f3860a23e000
+      width: 18
+      height: 24
+    spriteID: f688ec5e58b66f442be7ca98d3df1d70
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -420,19 +300,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 40, y: 4}
-  - name: cube01_Frame_15
+    uvTransform: {x: 56, y: 4}
+  - name: cube_dropper_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 40
-      y: 22
-      width: 10
-      height: 10
-    spriteID: 011fb0a3bb0b6794e94e25e9e3de2a5c
+      x: 56
+      y: 36
+      width: 18
+      height: 24
+    spriteID: 93cfd32b9f2bc1b40b04f89f81e6a3aa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -440,144 +320,264 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 40, y: 22}
+    uvTransform: {x: 56, y: 36}
+  - name: cube_dropper_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 68
+      width: 18
+      height: 24
+    spriteID: 511940b57596f714ea4f0424b0342359
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 68}
+  - name: cube_dropper_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 100
+      width: 18
+      height: 24
+    spriteID: 47ba5cdbaeeb07d42a5f3ed299e3ef66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 100}
+  - name: cube_dropper_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 18
+      height: 24
+    spriteID: f699d20d027a79d4e9483e9fa763d8c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: cube_dropper_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 36
+      width: 18
+      height: 24
+    spriteID: b3282b7b381aac34e867d22086dd8a4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 36}
+  - name: cube_dropper_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 68
+      width: 18
+      height: 24
+    spriteID: 1f91302c6a946504b89c102c0314e1af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 68}
+  - name: cube_dropper_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 100
+      width: 18
+      height: 24
+    spriteID: d0a0edf568dd2e34d93ec8c1d8838793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 100}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1503002072
-    name: cube01
+    guid: -1152444280
+    name: cube_dropper
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: cube01_Frame_0
+    - name: cube_dropper_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 67d50cb1f431a244e98127582dd5433f
-    - name: cube01_Frame_1
+        width: 18
+        height: 24
+      spriteId: e18661c5f1181d54089e0f82114e8dd4
+    - name: cube_dropper_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 43977954ec8702344b2c79d46d5d9591
-    - name: cube01_Frame_2
+        width: 18
+        height: 24
+      spriteId: 6faa2cb6a55a738478c8750e64ab9885
+    - name: cube_dropper_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 453afac330ab45d4d8ffef22bfdb3be5
-    - name: cube01_Frame_3
+        width: 18
+        height: 24
+      spriteId: 06c5eaa979bd3b7489abb313b303eeb6
+    - name: cube_dropper_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: e5479a7dc4a0f224ea8ac6d92c774acc
-    - name: cube01_Frame_4
+        width: 18
+        height: 24
+      spriteId: 4d87d90e7e4010f4a8ca19bd67ee9499
+    - name: cube_dropper_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 768b22a1a0105024daf0a9551a954f9c
-    - name: cube01_Frame_5
+        width: 18
+        height: 24
+      spriteId: a8b5e5fa990830a4b8b401c3b7082ba3
+    - name: cube_dropper_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 9c706539c19b029449c07677ab8688dd
-    - name: cube01_Frame_6
+        width: 18
+        height: 24
+      spriteId: ecbbbdc78d06c794fa6671c6ced1b766
+    - name: cube_dropper_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: ab3b163730a5f1b438f78759eb7ef48e
-    - name: cube01_Frame_7
+        width: 18
+        height: 24
+      spriteId: 819d90fbd83dbee4d808ab92081ed4b3
+    - name: cube_dropper_Frame_7
       frameIndex: 7
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: f2e5bf0983e259540b4b1d1eec78abe1
-    - name: cube01_Frame_8
+        width: 18
+        height: 24
+      spriteId: ddee1fcfc8889ef4889c737e30a4c2ac
+    - name: cube_dropper_Frame_8
       frameIndex: 8
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 1cbc95f96b33a9f4689944c313d5d291
-    - name: cube01_Frame_9
+        width: 18
+        height: 24
+      spriteId: f688ec5e58b66f442be7ca98d3df1d70
+    - name: cube_dropper_Frame_9
       frameIndex: 9
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: c0952880effb08b42b0752cd5c5b959b
-    - name: cube01_Frame_10
+        width: 18
+        height: 24
+      spriteId: 93cfd32b9f2bc1b40b04f89f81e6a3aa
+    - name: cube_dropper_Frame_10
       frameIndex: 10
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 71482d6f0cb6b614886f6b23071a6e7c
-    - name: cube01_Frame_11
+        width: 18
+        height: 24
+      spriteId: 511940b57596f714ea4f0424b0342359
+    - name: cube_dropper_Frame_11
       frameIndex: 11
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: cf5753517e1b5334eb19dc3524d68605
-    - name: cube01_Frame_12
+        width: 18
+        height: 24
+      spriteId: 47ba5cdbaeeb07d42a5f3ed299e3ef66
+    - name: cube_dropper_Frame_12
       frameIndex: 12
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 1486eeef64a853f44b33af7c1b780e88
-    - name: cube01_Frame_13
+        width: 18
+        height: 24
+      spriteId: f699d20d027a79d4e9483e9fa763d8c7
+    - name: cube_dropper_Frame_13
       frameIndex: 13
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: fff8998a6d7daa9408998e0ac43dc038
-    - name: cube01_Frame_14
+        width: 18
+        height: 24
+      spriteId: b3282b7b381aac34e867d22086dd8a4c
+    - name: cube_dropper_Frame_14
       frameIndex: 14
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 0c931ba335d26684aac4f3860a23e000
-    - name: cube01_Frame_15
+        width: 18
+        height: 24
+      spriteId: 1f91302c6a946504b89c102c0314e1af
+    - name: cube_dropper_Frame_15
       frameIndex: 15
       cellRect:
         x: 0
         y: 0
-        width: 10
-        height: 10
-      spriteId: 011fb0a3bb0b6794e94e25e9e3de2a5c
+        width: 18
+        height: 24
+      spriteId: d0a0edf568dd2e34d93ec8c1d8838793
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -632,4 +632,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 10, y: 10}
+  canvasSize: {x: 18, y: 24}
