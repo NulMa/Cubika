@@ -202,6 +202,46 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+  - name: UIs_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 4, y: 4, z: 4, w: 4}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 262
+      width: 18
+      height: 18
+    spriteID: 76fd44846062ed24e987d7aef387f66e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 1, y: 1, z: 1, w: 1}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 264
+      width: 14
+      height: 14
+    spriteID: 63202f29b81eb1244965aaf3a2c8696f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: -1296355437
