@@ -7,6 +7,7 @@ public class Cube : MonoBehaviour{
     public RuntimeAnimatorController[] animCon;
     public CubeData[] datas;
     public int spriteType;
+    public bool inBox;
     CubeData data;
 
     Rigidbody2D rigid;
@@ -22,13 +23,19 @@ public class Cube : MonoBehaviour{
 
 
     private void Update() {
-        
+        if (inBox)
+            return;
+
+        if(this.transform.parent == null) {
+            StartCoroutine(limitCheck());
+        }
+
 
     }
 
-
-    public void Init() {
-
+    IEnumerator limitCheck() {
+        yield return new WaitForSeconds(0.75f);
+        inBox = true;
     }
 
 
