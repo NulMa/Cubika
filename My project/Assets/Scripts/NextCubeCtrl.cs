@@ -12,18 +12,22 @@ public class NextCubeCtrl : MonoBehaviour{
 
     public Sprite[] sprites;
 
-
-    // Start is called before the first frame update
-    void Start(){
+    private void Awake() {
         img1Int = Random.Range(0, 3);
         img1.sprite = sprites[img1Int];
         img2Int = Random.Range(0, 2);
         img2.sprite = sprites[img2Int];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+    private void Update() {
+        img1.sprite = sprites[img1Int];
+        img2.sprite = sprites[img2Int];
     }
+
+    public void nextGen() {
+        img2Int = img1Int;
+        img1Int = Random.Range(0, 3);
+    }
+
 }

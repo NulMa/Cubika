@@ -56,10 +56,13 @@ public class Cube : MonoBehaviour{
 
     public void gradeUP() {
         spriteType++;
+        cubeShape();
+        
+    }
 
+    public void cubeShape() {
         anim.runtimeAnimatorController = animCon[spriteType];
         coll.size = datas[spriteType].size;
-        coll.offset = new Vector2(0,  datas[spriteType].size.x / 2);
-        
+        coll.offset = new Vector2(0, datas[spriteType].size.x / 2);
     }
 }

@@ -9,6 +9,7 @@ public class Hand : MonoBehaviour{
     public int speed;
     public GameObject inHand;
     public GameObject cubePref;
+    public GameObject nextCubeGen;
     public bool isHold;
     public float rotSpeed;
 
@@ -51,8 +52,11 @@ public class Hand : MonoBehaviour{
         isHold = true;
         yield return new WaitForSeconds(0.5f);
         GameObject cube = Instantiate(cubePref, transform.position + new Vector3(0, -0.5f, 0), Quaternion.identity);
+        cube.GetComponent<Cube>().spriteType = nextCubeGen.GetComponent<NextCubeCtrl>().img2Int;
+        cube.GetComponent<Cube>().cubeShape();
         cube.transform.SetParent(transform);
         inHand = cube;
+        nextCubeGen.GetComponent<NextCubeCtrl>().nextGen();
     }
 
     void OnMove(InputValue val) {

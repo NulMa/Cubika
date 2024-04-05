@@ -8,4 +8,5 @@ public class GameManager : MonoBehaviour{
     public Transform hand;
     public Transform box;
 
+    public int nextCube;
 }
