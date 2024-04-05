@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638474125949476988
+  platformSettingsDirtyTick: 638479344853735939
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -246,7 +246,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 3, y: 3, z: 3, w: 5}
+    border: {x: 0, y: 3, z: 3, w: 3}
     rect:
       serializedVersion: 2
       x: 229
@@ -266,7 +266,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 3, y: 3, z: 3, w: 5}
+    border: {x: 3, y: 3, z: 0, w: 3}
     rect:
       serializedVersion: 2
       x: 249
@@ -274,6 +274,106 @@ ScriptedImporter:
       width: 18
       height: 30
     spriteID: 73ca9393df9689742b9d1b35c4b5d477
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5
+      y: 214
+      width: 19
+      height: 19
+    spriteID: c13de5b3878776c499809c7a6b1a1045
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 205
+      width: 23
+      height: 32
+    spriteID: 75649ae71fa418040a5c750a01f05b4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 204
+      width: 24
+      height: 27
+    spriteID: 0ba70c257e961624d82f34aeda5c95b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 205
+      width: 25
+      height: 25
+    spriteID: 5b748e1f1b5b28b418e91f36e5568ce4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 3, y: 3, z: 3, w: 3}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 215
+      width: 16
+      height: 16
+    spriteID: b849df8ea2e67314faa676646be63dfa
     spriteBone: []
     spriteOutline: []
     vertices: []

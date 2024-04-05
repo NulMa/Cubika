@@ -46,6 +46,9 @@ public class Cube : MonoBehaviour{
 
 
         if(spriteType == collision.gameObject.GetComponent<Cube>().spriteType && transform.position.y < collision.transform.position.y) {
+            //add score
+
+
 
             // delete upper
             gradeUP();
@@ -56,6 +59,7 @@ public class Cube : MonoBehaviour{
 
     public void gradeUP() {
         spriteType++;
+        //GameManager.instance.score += datas[spriteType].mergedScore;
         cubeShape();
         
     }
@@ -63,6 +67,6 @@ public class Cube : MonoBehaviour{
     public void cubeShape() {
         anim.runtimeAnimatorController = animCon[spriteType];
         coll.size = datas[spriteType].size;
-        coll.offset = new Vector2(0, datas[spriteType].size.x / 2);
+        coll.offset = Vector2.zero;
     }
 }
