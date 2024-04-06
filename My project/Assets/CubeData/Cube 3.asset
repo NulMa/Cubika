@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cube 3
   m_EditorClassIdentifier: 
   spriteType: 3
-  mergedScore: 10
+  mergedScore: 50
   size: {x: 0.85, y: 0.85}

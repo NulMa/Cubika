@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour{
 
     public Transform hand;
     public Transform box;
+    public GameObject overUi;
 
 
     public int score;
@@ -24,8 +25,22 @@ public class GameManager : MonoBehaviour{
 
 
     private void Awake() {
+        if (instance != null && instance != this) {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+
+
         time = 0;
         score = 0;
+
+        if (!PlayerPrefs.HasKey("Record")) {
+            PlayerPrefs.SetInt("Record", 0);
+        }
+
+        recordScore.text = string.Format("{0:D9}", PlayerPrefs.GetInt("Record"));
         
     }
 
@@ -37,9 +52,29 @@ public class GameManager : MonoBehaviour{
         playTime.text = string.Format("{0:D2}:{1:D2}", min, sec);
 
         nowScore.text = string.Format("{0:D9}", score);
+        
+
     }
 
     public void sceneReload() {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void gameOver() {
+        if(PlayerPrefs.GetInt("Record") < score) {
+            PlayerPrefs.SetInt("Record", score);
+        }
+
+        StartCoroutine(timeStop());
+    }
+
+    IEnumerator timeStop() {
+
+        overUi.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        Time.timeScale = 0;
+
+
     }
 }

@@ -14,7 +14,7 @@ public class OverCheck : MonoBehaviour{
 
     private void OnTriggerStay2D(Collider2D collision) {
         if (collision.tag == "Cube" && collision.GetComponent<Cube>().inBox) {
-            Debug.Log("GameOver");
+            GameManager.instance.gameOver();
         }
     }
 

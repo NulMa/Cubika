@@ -46,11 +46,7 @@ public class Cube : MonoBehaviour{
 
 
         if(spriteType == collision.gameObject.GetComponent<Cube>().spriteType && transform.position.y < collision.transform.position.y) {
-            //add score
-
-
-
-            // delete upper
+       
             gradeUP();
 
             Destroy(collision.gameObject);
@@ -59,7 +55,7 @@ public class Cube : MonoBehaviour{
 
     public void gradeUP() {
         spriteType++;
-        //GameManager.instance.score += datas[spriteType].mergedScore;
+        GameManager.instance.score += datas[spriteType].mergedScore;
         cubeShape();
         
     }
