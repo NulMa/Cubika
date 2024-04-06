@@ -64,6 +64,9 @@ public class Hand : MonoBehaviour{
     }
 
     void OnFire(InputValue val) {
+        if (!isHold)
+            return;
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Drop, 0);
         isHold = false;
     }
 }

@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
+//using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -57,15 +57,14 @@ public class GameManager : MonoBehaviour{
     }
 
     public void sceneReload() {
+        if (PlayerPrefs.GetInt("Record") < score) {
+            PlayerPrefs.SetInt("Record", score);
+        }
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void gameOver() {
-        if(PlayerPrefs.GetInt("Record") < score) {
-            PlayerPrefs.SetInt("Record", score);
-        }
-
         StartCoroutine(timeStop());
     }
 
@@ -74,7 +73,9 @@ public class GameManager : MonoBehaviour{
         overUi.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         Time.timeScale = 0;
+    }
 
-
+    public void gameExit() {
+        Application.Quit();
     }
 }

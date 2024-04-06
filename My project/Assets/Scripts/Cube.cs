@@ -8,6 +8,7 @@ public class Cube : MonoBehaviour{
     public CubeData[] datas;
     public int spriteType;
     public bool inBox;
+    public bool sfxPlayed;
     CubeData data;
 
     Rigidbody2D rigid;
@@ -19,6 +20,7 @@ public class Cube : MonoBehaviour{
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         tag = "Cube";
+        
     }
 
 
@@ -51,11 +53,22 @@ public class Cube : MonoBehaviour{
 
             Destroy(collision.gameObject);
         }
+        else {
+            playLandSfx();
+        }
+    }
+
+    public void playLandSfx() {
+        if (!sfxPlayed) {
+            AudioManager.instance.PlaySfx(AudioManager.Sfx.Land, 0);
+            sfxPlayed = true;
+        }
     }
 
     public void gradeUP() {
         spriteType++;
         GameManager.instance.score += datas[spriteType].mergedScore;
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Merged, 0);
         cubeShape();
         
     }
