@@ -16,9 +16,11 @@ public class GameManager : MonoBehaviour{
     public int score;
     public int record;
     public float time;
+    public float speed;
     public Text nowScore;
     public Text recordScore;
     public Text playTime;
+    public Slider speedSlider;
 
 
     public int nextCube;
@@ -40,18 +42,19 @@ public class GameManager : MonoBehaviour{
             PlayerPrefs.SetInt("Record", 0);
         }
 
-        recordScore.text = string.Format("{0:D9}", PlayerPrefs.GetInt("Record"));
+        recordScore.text = string.Format("{0:#}", PlayerPrefs.GetInt("Record"));
         
     }
 
     private void Update() {
 
+        speed = speedSlider.value * 10;
         time += Time.deltaTime;
         int min = Mathf.FloorToInt(time / 60);
         int sec = Mathf.FloorToInt(time % 60);
         playTime.text = string.Format("{0:D2}:{1:D2}", min, sec);
 
-        nowScore.text = string.Format("{0:D9}", score);
+        nowScore.text = string.Format("{0:#}", score);
         
 
     }

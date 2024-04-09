@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Hand : MonoBehaviour{
 
     public Vector2 inputVec;
-    public int speed;
+    public float speed;
     public GameObject inHand;
     public GameObject cubePref;
     public GameObject nextCubeGen;
@@ -21,6 +21,8 @@ public class Hand : MonoBehaviour{
     }
 
     private void FixedUpdate() {
+        speed = GameManager.instance.speed;
+
         Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
         float rotAmount = inputVec.y * rotSpeed * Time.fixedDeltaTime;

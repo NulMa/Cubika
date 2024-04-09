@@ -9,6 +9,8 @@ public class Cube : MonoBehaviour{
     public int spriteType;
     public bool inBox;
     public bool sfxPlayed;
+    public GameObject bashLeft;
+    public GameObject bashRight;
     CubeData data;
 
     Rigidbody2D rigid;
