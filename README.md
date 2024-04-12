@@ -9,8 +9,8 @@
 	- 웹 플레이용 itch.io 링크 :
    		https://nullma.itch.io/cubika
 
-  - 구글드라이브 링크 :
-      https://drive.google.com/drive/u/0/folders/1U8p9hxg8u90FPbjWb79iPq1YkXLZPYMT
+  	- 구글드라이브 링크 :
+     		https://drive.google.com/drive/u/0/folders/1U8p9hxg8u90FPbjWb79iPq1YkXLZPYMT
 
 - 현재 버전
 
