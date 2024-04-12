@@ -15,11 +15,14 @@ public class GameManager : MonoBehaviour{
 
     public int score;
     public int record;
+    public float bashDir;
     public float time;
     public float speed;
+
     public Text nowScore;
     public Text recordScore;
     public Text playTime;
+    public Text version;
     public Slider speedSlider;
 
 
@@ -43,7 +46,7 @@ public class GameManager : MonoBehaviour{
         }
 
         recordScore.text = string.Format("{0:#}", PlayerPrefs.GetInt("Record"));
-        
+        version.text =  "ver. " + Application.version;
     }
 
     private void Update() {
@@ -55,7 +58,12 @@ public class GameManager : MonoBehaviour{
         playTime.text = string.Format("{0:D2}:{1:D2}", min, sec);
 
         nowScore.text = string.Format("{0:#}", score);
-        
+
+
+        if (bashDir > 1)
+            bashDir = 1;
+        if (bashDir < -1)
+            bashDir = -1;
 
     }
 

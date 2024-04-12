@@ -422,6 +422,66 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+  - name: UIs_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 2, y: 2, z: 2, w: 2}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 167
+      width: 16
+      height: 16
+    spriteID: fe8d4cf026070694686c9f5fa2aca8c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 2, y: 2, z: 2, w: 2}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 167
+      width: 16
+      height: 16
+    spriteID: 40f3e60d6fc5df845bafe392c2a7177c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: UIs_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 2, y: 2, z: 2, w: 2}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 167
+      width: 16
+      height: 16
+    spriteID: bfd4f6d5e61a12141874ce2cb74beec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: -1296355437

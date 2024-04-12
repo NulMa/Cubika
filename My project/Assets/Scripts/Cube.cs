@@ -11,6 +11,7 @@ public class Cube : MonoBehaviour{
     public bool sfxPlayed;
     public GameObject bashLeft;
     public GameObject bashRight;
+
     CubeData data;
 
     Rigidbody2D rigid;
@@ -34,6 +35,46 @@ public class Cube : MonoBehaviour{
             StartCoroutine(limitCheck());
         }
 
+        switch (GameManager.instance.bashDir) {
+            case -1:
+                setBash(1, true);
+                setBash(2, false);
+                break;
+
+            case 0:
+                setBash(1, false);
+                setBash(2, false);
+                break;
+
+            case 1:
+                setBash(1, false);
+                setBash(2, true);
+                break;
+
+        }
+    }
+
+    public void setBash(int Dir, bool isOn) {
+        bashLeft.transform.localScale = new Vector3(coll.size.x, coll.size.x, coll.size.x);
+        bashLeft.transform.localPosition = new Vector3(0, -(coll.size.x / 2), 0);
+        bashLeft.GetComponent<BoxCollider2D>().offset = new Vector2(0, coll.size.y / 4);
+        bashLeft.GetComponent<BoxCollider2D>().size = new Vector2(0.9f , coll.size.x / 2);
+
+
+        bashRight.transform.localScale = new Vector3(coll.size.x, coll.size.x, coll.size.x);
+        bashRight.transform.localPosition = new Vector3(0, -(coll.size.x / 2), 0);
+        bashRight.GetComponent<BoxCollider2D>().offset = new Vector2(0, coll.size.y / 4);
+        bashRight.GetComponent<BoxCollider2D>().size = new Vector2(0.9f, coll.size.x / 2);
+
+
+
+        if (Dir == 1) {
+            bashLeft.gameObject.SetActive(isOn);
+        }
+            
+        if(Dir == 2) {
+            bashRight.gameObject.SetActive(isOn);
+        }
 
     }
 

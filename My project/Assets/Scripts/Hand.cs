@@ -71,4 +71,12 @@ public class Hand : MonoBehaviour{
         AudioManager.instance.PlaySfx(AudioManager.Sfx.Drop, 0);
         isHold = false;
     }
+
+    void OnBash(InputValue val) {
+        GameManager.instance.bashDir += val.Get<float>();
+    }
+
+    void OnReset(InputValue val) {
+        inHand.transform.eulerAngles = Vector3.zero;
+    }
 }
