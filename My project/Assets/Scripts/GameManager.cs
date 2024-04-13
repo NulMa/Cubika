@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour{
     public Text playTime;
     public Text version;
     public Slider speedSlider;
+    public Slider bgmVol;
+    public Slider sfxVol;
 
 
     public int nextCube;

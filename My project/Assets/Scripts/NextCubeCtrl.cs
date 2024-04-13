@@ -13,7 +13,7 @@ public class NextCubeCtrl : MonoBehaviour{
     public Sprite[] sprites;
 
     private void Awake() {
-        img1Int = Random.Range(0, 3);
+        img1Int = Random.Range(0, 4);
         img1.sprite = sprites[img1Int];
         img2Int = Random.Range(0, 2);
         img2.sprite = sprites[img2Int];
@@ -27,7 +27,7 @@ public class NextCubeCtrl : MonoBehaviour{
 
     public void nextGen() {
         img2Int = img1Int;
-        img1Int = Random.Range(0, 3);
+        img1Int = Random.Range(0, 4);
     }
 
 }

@@ -120,5 +120,5 @@ public class Cube : MonoBehaviour{
         anim.runtimeAnimatorController = animCon[spriteType];
         coll.size = datas[spriteType].size;
         coll.offset = Vector2.zero;
-    }
+    }   
 }

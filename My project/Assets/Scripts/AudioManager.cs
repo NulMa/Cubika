@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
 using static AudioManager;
 
@@ -32,6 +33,24 @@ public class AudioManager : MonoBehaviour {
         Init();
         PlayBgm(true);
     }
+
+    private void Update() {
+
+        volCtrl();
+    }
+
+
+    public void volCtrl() {
+
+        bgmPlayer.volume = GameManager.instance.bgmVol.value;
+
+        for (int index = 0; index < sfxPlayers.Length; index++) {
+            sfxPlayers[index].volume = GameManager.instance.sfxVol.value;
+        }
+    }
+
+
+
     public void Init() {
         //BGM player
         GameObject bgmObject = new GameObject("BgmPlayer");

@@ -7,7 +7,7 @@ public class GuideLine : MonoBehaviour{
     void Update(){
         transform.position = new Vector3(GetComponentInParent<Transform>().position.x, 1.1f, 0);
 
-        if (!GetComponentInParent<Transform>().gameObject.activeSelf)
+        if (GetComponentInParent<Hand>().inHand == null)
             return;
 
         switch (GetComponentInParent<Hand>().inHand.GetComponent<Cube>().spriteType) {

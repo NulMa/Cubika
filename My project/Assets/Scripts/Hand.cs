@@ -40,6 +40,8 @@ public class Hand : MonoBehaviour{
             inHand.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
         }
         else {
+            if (inHand == null)
+                return;
             StartCoroutine(cubeRegen());
         }
 

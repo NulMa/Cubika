@@ -11,7 +11,7 @@ public class BashColliderCheck : MonoBehaviour
     // Update is called once per frame
 
     void Update(){
-        if (isActivated)
+        if (isActivated || !GetComponentInParent<Cube>().inBox)
             return;
 
         StartCoroutine(Bash());
@@ -21,7 +21,6 @@ public class BashColliderCheck : MonoBehaviour
 
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        Debug.Log(collision.gameObject.name);
         if(collision.gameObject != GetComponentInParent<Transform>().gameObject) {
             isActivated = false;
             if(GetComponentInParent<Cube>().inBox)
@@ -36,11 +35,11 @@ public class BashColliderCheck : MonoBehaviour
 
             switch (Dir) {
             case 1:
-                GetComponentInParent<Rigidbody2D>().AddForce(new Vector3(200, 0, 0), ForceMode2D.Impulse);
+                GetComponentInParent<Rigidbody2D>().AddForce(new Vector3(250, 0, 0), ForceMode2D.Impulse);
                 break;
 
             case 2:
-                GetComponentInParent<Rigidbody2D>().AddForce(new Vector3(-200, 0, 0), ForceMode2D.Impulse);
+                GetComponentInParent<Rigidbody2D>().AddForce(new Vector3(-250, 0, 0), ForceMode2D.Impulse);
                 break;
         }
         yield return new WaitForSeconds(0.01f);
